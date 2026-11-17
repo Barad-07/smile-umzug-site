@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Umzugsofferte – Smile Umzug GmbH</title>
+<link rel="icon" href="assets/img/logo.png">
+<script>try{if(sessionStorage.getItem('pt'))document.documentElement.classList.add('pt-in')}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="is-loading page-offerte" id="top">
+<!-- SVG sprites -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 0c.6 6.6 5.4 11.4 12 12-6.6.6-11.4 5.4-12 12C11.4 17.4 6.6 12.6 0 12 6.6 11.4 11.4 6.6 12 0z" fill="currentColor"/></symbol>
+    <symbol id="i-truck" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M3 12h26v22H3zM29 19h9l7 8v7H29z"/><circle cx="12" cy="36" r="4"/><circle cx="37" cy="36" r="4"/><path d="M33 19v8h12"/></g></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M20 6c1 9 6 14 15 15-9 1-14 6-15 15-1-9-6-14-15-15 9-1 14-6 15-15z"/><path d="M38 30c.4 3.6 2.4 5.6 6 6-3.6.4-5.6 2.4-6 6-.4-3.6-2.4-5.6-6-6 3.6-.4 5.6-2.4 6-6z"/></g></symbol>
+    <symbol id="i-office" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M8 44V6h22v38M30 18h10v26M4 44h40"/><path d="M14 13h4M22 13h2M14 20h4M22 20h2M14 27h4M22 27h2M17 44v-8h6v8M34 25h2M34 32h2"/></g></symbol>
+    <symbol id="i-bin" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M7 12h34M18 12V7h12v5M10 12l2.5 30h23L38 12"/><path d="M20 20l2 6-6 0M28 30l-2-6 6 0M19 34h10"/></g></symbol>
+    <symbol id="i-box" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M24 4l18 9v22l-18 9-18-9V13z"/><path d="M6 13l18 9 18-9M24 22v22M15 8.5l18 9"/></g></symbol>
+    <symbol id="i-globe" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><circle cx="24" cy="24" r="19"/><path d="M5 24h38M24 5c5 5 7.5 11.5 7.5 19S29 38 24 43c-5-5-7.5-11.5-7.5-19S19 10 24 5z"/></g></symbol>
+    <symbol id="i-heart" viewBox="0 0 48 48"><path d="M24 41S5 30 5 17a9.5 9.5 0 0 1 19-2 9.5 9.5 0 0 1 19 2c0 13-19 24-19 24z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/></symbol>
+    <symbol id="i-city" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M4 44h40M7 44V22l9-6v28M16 44V10l12-6v40M28 44V18h13v26"/><path d="M21 14v2M21 21v2M21 28v2M33 24v2M33 31v2"/></g></symbol>
+    <symbol id="i-chat" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M42 23c0 9-8 16-18 16-3 0-5.5-.5-8-1.5L6 41l3-8.5C7 30 6 26.5 6 23 6 14 14 7 24 7s18 7 18 16z"/><path d="M16 21h16M16 28h10"/></g></symbol>
+    <symbol id="i-home" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M5 22L24 6l19 16"/><path d="M10 18v24h28V18"/><path d="M20 42V30h8v12"/></g></symbol>
+    <symbol id="i-shield" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M24 4l16 6v12c0 10-7 18-16 22C15 40 8 32 8 22V10z"/><path d="M17 24l5 5 9-10"/></g></symbol>
+    <symbol id="i-team" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><circle cx="17" cy="16" r="6"/><circle cx="34" cy="18" r="4.5"/><path d="M5 40c0-7 5-12 12-12s12 5 12 12M30 28c7 0 13 4 13 11"/></g></symbol>
+    <symbol id="i-tag" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M4 24V6h18l22 22-18 18z"/><circle cx="14" cy="16" r="3"/></g></symbol>
+    <symbol id="i-lift" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M10 44L36 6M16 44l26-38M14 37h8M20 28h8M26 19h8"/></g></symbol>
+    <symbol id="i-smile" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="3.6" stroke-linecap="round"><path d="M12 27c3 6 8 9 12 9s9-3 12-9"/><path d="M16 17v2M32 17v2"/></g></symbol>
+    <symbol id="i-piano" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M6 10h36v22H6z"/><path d="M6 24h36M13 24v8M20 24v8M27 24v8M34 24v8M10 32v8M38 32v8"/><path d="M10 17h28"/></g></symbol>
+    <symbol id="i-chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 48 48"><path d="M14 5l7 9-4 5c2 5 6 9 11 11l5-4 9 7-4 8C21 41 7 27 6 9z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><rect x="5" y="10" width="38" height="28" rx="4"/><path d="M6 13l18 13 18-13"/></g></symbol>
+    <symbol id="i-pin" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"><path d="M24 44s14-13 14-25a14 14 0 0 0-28 0c0 12 14 25 14 25z"/><circle cx="24" cy="19" r="5"/></g></symbol>
+    <symbol id="i-cal" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><rect x="6" y="9" width="36" height="33" rx="4"/><path d="M6 19h36M15 5v8M33 5v8"/></g></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="8" y="8" width="13" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></g></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12l5 5L20 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"><path d="M3 24s8-14 21-14 21 14 21 14-8 14-21 14S3 24 3 24z"/><circle cx="24" cy="24" r="6"/></g></symbol>
+    <symbol id="i-tools" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M29 7a9 9 0 0 0-8 12L6 34l8 8 15-15a9 9 0 0 0 12-8l-6 2-5-5z"/></g></symbol>
+    <symbol id="i-noparking" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="24" cy="24" r="19"/><path d="M11 11l26 26M37 11L11 37"/></g></symbol>
+    <symbol id="i-roll" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M6 14h36v26H6z"/><path d="M6 14l5-8h26l5 8M18 22h12"/></g></symbol>
+  </defs>
+</svg>
+
+
+
+<div class="grain" aria-hidden="true"></div>
+
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__top"><span>Smile Umzug GmbH</span><span>Zürich-Altstetten</span></div>
+  <div class="loader__word">
+    <span style="animation-delay:.05s">Smile</span><span style="animation-delay:.15s">&nbsp;</span><span class="serif" style="animation-delay:.22s">Umzug</span>
+  </div>
+  <div class="loader__bottom">
+    <div class="loader__count"><span id="loadNum">0</span>%</div>
+    <div class="loader__bar"><i id="loadBar"></i></div>
+    <div style="font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;opacity:.6">Wir packen an</div>
+  </div>
+</div>
+
+<div class="pt" id="pt" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><div class="pt__label" id="ptLabel"><small>In 3 Schritten</small><span><span class="serif">Offerte</span></span></div></div>
+
+<canvas class="c-trail" id="cTrail"></canvas>
+<div class="c-blob" id="cBlob"></div>
+<div class="c-dot" id="cDot"></div>
+<div class="c-label" id="cLabel">
+  <svg viewBox="0 0 100 100"><defs><path id="clc" d="M50,50 m-40,0 a40,40 0 1,1 80,0 a40,40 0 1,1 -80,0"/></defs><text><textPath href="#clc" textLength="250" lengthAdjust="spacing">Smile Umzug · Zürich · Smile Umzug · Zürich ·</textPath></text></svg>
+  <b><span id="cLabelTxt">Offerte</span><i><svg width="10" height="10" viewBox="0 0 24 24" style="position:static;animation:none;width:10px;height:10px"><use href="#i-arrow"/></svg></i></b>
+</div>
+
+
+<header class="header" id="header">
+  <a href="index.html" class="logo" aria-label="Smile Umzug – Startseite"><img src="assets/img/logo.png" alt="Smile Umzug" width="200" height="27"></a>
+  <nav class="nav" aria-label="Hauptnavigation">
+    <a href="index.html">Start</a>
+    <div class="nav__dd">
+      <a href="index.html#leistungen">Leistungen <svg><use href="#i-chev"/></svg></a>
+      <div class="mega">
+        <a class="mi" href="privatumzug.html"><span class="ic"><svg><use href="#i-home"/></svg></span><span><b>Privatumzug</b><span class="d">Professionell und fair bepreist</span></span></a>
+        <a class="mi" href="index.html#details"><span class="ic"><svg><use href="#i-office"/></svg></span><span><b>Büroumzug</b><span class="d">Technik &amp; Mobiliar erfasst</span></span></a>
+        <a class="mi" href="index.html#details"><span class="ic"><svg><use href="#i-sparkle"/></svg></span><span><b>Reinigung</b><span class="d">Mit Abnahmegarantie</span></span></a>
+        <a class="mi" href="index.html#details"><span class="ic"><svg><use href="#i-bin"/></svg></span><span><b>Räumung &amp; Entsorgung</b><span class="d">Mit Entsorgungspartner</span></span></a>
+        <a class="mi" href="index.html#details"><span class="ic"><svg><use href="#i-globe"/></svg></span><span><b>Internationale Umzüge</b><span class="d">Europaweit seit 2000</span></span></a>
+        <a class="mi" href="index.html#details"><span class="ic"><svg><use href="#i-heart"/></svg></span><span><b>Seniorenumzug</b><span class="d">Mit Einfühlungsvermögen</span></span></a>
+        <a class="mi" href="index.html#details"><span class="ic"><svg><use href="#i-box"/></svg></span><span><b>Ein- &amp; Auspackservice</b><span class="d">Sie müssen nichts selbst tun</span></span></a>
+        <a class="mi" href="index.html#details"><span class="ic"><svg><use href="#i-lift"/></svg></span><span><b>Transport &amp; Möbellift</b><span class="d">Für Zürichs Altbauten</span></span></a>
+        <div class="mega__cta"><svg class="bg"><use href="#i-star"/></svg><div><b>Offerte innert 1 Werktag.</b><p>Kostenlos und unverbindlich.</p></div><a href="offerte.html">Anfragen <svg width="12" height="12"><use href="#i-arrow"/></svg></a></div>
+      </div>
+    </div>
+    <a href="privatumzug.html">Privatumzug</a>
+    <a href="ueber-uns.html">Über uns</a>
+    <a href="index.html#faq">FAQ</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
+  <div class="header__right">
+    <a class="header__tel" href="tel:+41799589998"><i></i>079 958 99 98</a>
+    <a class="btn btn--red magnetic" href="offerte.html" data-cursor="Offerte">Gratis Offerte <span class="arr"><svg width="12" height="12"><use href="#i-arrow"/></svg></span></a>
+    <button class="burger" id="burger" aria-label="Menü öffnen"><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="menu" id="menu">
+  <a class="big" href="index.html"><span>Start</span></a>
+  <a class="big" href="privatumzug.html"><span>Privatumzug</span></a>
+  <a class="big" href="ueber-uns.html"><span>Über uns</span></a>
+  <a class="big" href="kontakt.html"><span>Kontakt</span></a>
+  <a class="big" href="offerte.html"><span>Offerte <em class="serif" style="color:var(--red)">anfragen</em></span></a>
+  <div class="menu__meta">
+    <a href="tel:+41799589998">079 958 99 98</a>
+    <a href="tel:+41523010038">052 301 00 38</a>
+    <a href="mailto:info@smileumzug.ch">info@smileumzug.ch</a>
+  </div>
+</div>
+
+<main class="oq">
+  <aside class="oq__side">
+    <span class="ring-deco"></span>
+    <div>
+      <div class="crumb fade-up" style="transition-delay:.2s;color:rgba(244,239,230,.55)"><a href="index.html">Start</a><i></i><b style="color:var(--cream)">Offerte</b></div>
+      <h1 class="lines">
+        <span class="line"><span>Umzugs&shy;</span></span>
+        <span class="line"><span class="serif">offerte.</span></span>
+      </h1>
+      <p class="phero__sub fade-up">Fordern Sie jetzt ein Angebot für Ihren Umzug an! Werktags erhalten Sie Ihre Offerte innerhalb eines Tages.</p>
+      <ol class="osteps fade-up d2">
+        <li class="on"><i>1</i>Service wählen</li>
+        <li><i>2</i>Adressen</li>
+        <li><i>3</i>Persönliche Informationen</li>
+      </ol>
+    </div>
+    <div class="oq__contact fade-up d3">
+      <span>Lieber telefonisch?</span>
+      <a href="tel:+41799589998">079 958 99 98</a>
+      <a href="tel:+41523010038">052 301 00 38</a>
+      <a href="mailto:info@smileumzug.ch">info@smileumzug.ch</a>
+    </div>
+  </aside>
+
+  <div class="oq__main">
+    <div class="obar fade-up"><i></i></div>
+    <form id="oform" novalidate>
+      <!-- STEP 1 -->
+      <div class="ostep on fade-up d2">
+        <h2><small>Schritt 1 von 3</small>Service wählen</h2>
+        <p class="hint">Wobei dürfen wir Ihnen helfen?</p>
+        <div class="fld" data-req>
+          <div class="svc-pick">
+            <label><input type="radio" name="service" value="Umzug"><span class="pc"><span class="tick"><svg><use href="#i-check"/></svg></span><span class="ic"><svg><use href="#i-truck"/></svg></span><b>Umzug</b></span></label>
+            <label><input type="radio" name="service" value="Reinigung"><span class="pc"><span class="tick"><svg><use href="#i-check"/></svg></span><span class="ic"><svg><use href="#i-sparkle"/></svg></span><b>Reinigung</b></span></label>
+            <label><input type="radio" name="service" value="Umzug &amp; Reinigung"><span class="pc"><span class="tick"><svg><use href="#i-check"/></svg></span><span class="ic"><svg><use href="#i-home"/></svg></span><b>Umzug &amp; Reinigung</b></span></label>
+            <label><input type="radio" name="service" value="Räumung &amp; Entsorgung"><span class="pc"><span class="tick"><svg><use href="#i-check"/></svg></span><span class="ic"><svg><use href="#i-bin"/></svg></span><b>Räumung &amp; Entsorgung</b></span></label>
+          </div>
+          <span class="msg">Bitte wählen Sie einen Service.</span>
+        </div>
+        <div class="dates">
+          <div class="fld" data-date="umzug"><label class="lb" for="d1">Umzug am</label><input class="inp" type="date" id="d1" name="umzug_am"></div>
+          <div class="fld" data-date="reinigung"><label class="lb" for="d2">Reinigung am</label><input class="inp" type="date" id="d2" name="reinigung_am"></div>
+          <div class="fld" data-date="raeumung"><label class="lb" for="d3">Räumung am</label><input class="inp" type="date" id="d3" name="raeumung_am"></div>
+        </div>
+        <div class="onav"><span></span><button type="button" class="btn btn--red magnetic" data-next>Anfrage starten <span class="arr"><svg width="12" height="12"><use href="#i-arrow"/></svg></span></button></div>
+      </div>
+
+      <!-- STEP 2 -->
+      <div class="ostep">
+        <h2><small>Schritt 2 von 3</small>Adressen</h2>
+        <p class="hint">Von wo nach wo geht die Reise?</p>
+        <div class="fld addr"><label class="lb" for="a1">Jetzige Adresse</label><input class="inp" id="a1" name="jetzige_adresse" placeholder="Strasse, PLZ, Ort"><svg><use href="#i-pin"/></svg></div>
+        <div class="addr-link"><i></i>Ihr Umzugsweg</div>
+        <div class="fld addr"><label class="lb" for="a2">Neue Adresse</label><input class="inp" id="a2" name="neue_adresse" placeholder="Strasse, PLZ, Ort"><svg style="color:var(--blue)"><use href="#i-home"/></svg></div>
+        <div class="fld" style="margin-top:24px">
+          <label class="lb">Anzahl Zimmer</label>
+          <div class="rooms">
+            <button type="button" id="roomsMinus" aria-label="Weniger">−</button>
+            <output id="roomsOut"></output>
+            <button type="button" id="roomsPlus" aria-label="Mehr">+</button>
+            <div class="viz" id="roomsViz" aria-hidden="true"></div>
+            <input type="hidden" name="anzahl_zimmer" id="rooms">
+          </div>
+        </div>
+        <div class="onav"><button type="button" class="back" data-prev><svg><use href="#i-arrow"/></svg>Zurück</button><button type="button" class="btn btn--red magnetic" data-next>Weiter <span class="arr"><svg width="12" height="12"><use href="#i-arrow"/></svg></span></button></div>
+      </div>
+
+      <!-- STEP 3 -->
+      <div class="ostep">
+        <h2><small>Schritt 3 von 3</small>Persönliche Informationen</h2>
+        <p class="hint">Fast geschafft – wie erreichen wir Sie?</p>
+        <div class="grid2">
+          <div class="fld"><label class="lb">Anrede</label><div class="pills"><label><input type="radio" name="anrede" value="Herr"><span>Herr</span></label><label><input type="radio" name="anrede" value="Frau"><span>Frau</span></label></div></div>
+          <div class="fld"><label class="lb">Sprache</label><div class="pills"><label><input type="radio" name="sprache" value="EN"><span>EN</span></label><label><input type="radio" name="sprache" value="DE"><span>DE</span></label><label><input type="radio" name="sprache" value="FR"><span>FR</span></label></div></div>
+        </div>
+        <div class="grid2" style="margin-top:10px">
+          <div class="fld" data-req><label class="lb" for="n1">Name <em>*</em></label><input class="inp" id="n1" name="name"><span class="msg">Bitte geben Sie Ihren Namen ein.</span></div>
+          <div class="fld" data-req><label class="lb" for="k1">Kontakt <em>*</em></label><input class="inp" id="k1" name="kontakt" placeholder="E-Mail oder Telefon"><span class="msg">Bitte geben Sie eine Kontaktmöglichkeit an.</span></div>
+        </div>
+        <div class="fld"><label class="lb" for="m1">Nachricht / Bemerkungen</label><textarea class="inp" id="m1" name="nachricht"></textarea></div>
+        <label class="consent"><input type="checkbox" name="consent"><span class="cbox"><svg><use href="#i-check"/></svg></span><span>Ich bin damit einverstanden, dass meine übermittelten Daten zur Beantwortung meiner Anfrage verarbeitet werden. Mehr in der <a href="#">Datenschutzerklärung</a>.</span></label>
+        <div class="onav"><button type="button" class="back" data-prev><svg><use href="#i-arrow"/></svg>Zurück</button><button type="submit" class="btn btn--red magnetic" data-cursor="Senden">Senden <span class="arr"><svg width="12" height="12"><use href="#i-arrow"/></svg></span></button></div>
+      </div>
+    </form>
+
+    <div class="osuccess" id="osuccess">
+      <div class="badge"><svg viewBox="0 0 48 48"><use href="#i-smile"/></svg></div>
+      <h2>Vielen <span class="serif">Dank!</span></h2>
+      <p>Wir haben Ihre Anfrage erhalten und melden uns so schnell wie möglich bei Ihnen.</p>
+      <a class="btn magnetic" href="index.html">Zur Startseite <span class="arr"><svg width="12" height="12"><use href="#i-arrow"/></svg></span></a>
+    </div>
+  </div>
+</main>
+
+
+<footer class="footer" style="padding-top:clamp(60px,6vw,100px)">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="Smile Umzug" width="200" height="27"></a>
+        <p>Smile Umzug GmbH – Ihre professionelle Umzugsfirma in Zürich-Altstetten für Privat- und Firmenumzüge.</p>
+      </div>
+      <div><h4>Leistungen</h4><ul>
+        <li><a href="privatumzug.html">Privatumzug</a></li><li><a href="index.html#details">Büroumzug</a></li>
+        <li><a href="index.html#details">Reinigung</a></li><li><a href="index.html#details">Räumung &amp; Entsorgung</a></li>
+        <li><a href="index.html#details">Internationale Umzüge</a></li><li><a href="index.html#details">Seniorenumzug</a></li></ul></div>
+      <div><h4>Unternehmen</h4><ul>
+        <li><a href="ueber-uns.html">Über uns</a></li><li><a href="#">Referenzen</a></li>
+        <li><a href="#">Ratgeber &amp; Tipps</a></li><li><a href="index.html#regionen">Umzugskosten Schweiz</a></li>
+        <li><a href="index.html#faq">FAQ</a></li><li><a href="offerte.html">Offerte</a></li></ul></div>
+      <div><h4>Kontakt</h4><ul>
+        <li><a href="tel:+41799589998">079 958 99 98</a></li><li><a href="tel:+41523010038">052 301 00 38</a></li>
+        <li><a href="mailto:info@smileumzug.ch">info@smileumzug.ch</a></li><li style="opacity:.6">Zürich-Altstetten</li>
+        <li><a href="kontakt.html">Kontaktformular</a></li>
+        <li><a href="https://smile-malerservice.ch" target="_blank" rel="noopener">Smile Malerservice ↗</a></li></ul></div>
+    </div>
+  </div>
+  <div class="footer__giant" id="giant" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="footer__bottom">
+      <span>© <span id="year">2026</span> Smile Umzug GmbH. Alle Rechte vorbehalten.</span>
+      <span style="display:flex;gap:22px"><a href="#">Impressum</a><a href="#">Datenschutzerklärung</a><a href="#top" class="to-top">Nach oben ↑</a></span>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
